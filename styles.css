@@ -9,6 +9,7 @@ table {
   border-spacing: 0;
   position: absolute;
   left: 380px;
+  border: 3px solid red;
 }
 tr:nth-child(even) {
   background: #ccc;
@@ -16,4 +17,8 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background: black;
   color: white;
+}
+
+td {
+  border: 1px solid red;
 }
