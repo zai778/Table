@@ -7,10 +7,13 @@
 
 table {
   border-spacing: 0;
+  position: absolute;
+  left: 380px;
 }
 tr:nth-child(even) {
   background: #ccc;
 }
 tr:nth-child(odd) {
-  background: #fff;
+  background: black;
+  color: white;
 }
