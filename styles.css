@@ -22,3 +22,8 @@ tr:nth-child(odd) {
 td {
   border: 1px solid red;
 }
+
+th {
+  line-height: 20px;
+  border: 2px solid red;
+}
